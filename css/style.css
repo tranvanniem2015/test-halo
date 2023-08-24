@@ -341,6 +341,12 @@ header .top__message p span {
   background: url("../img/banner.jpg") no-repeat center;
   height: 720px;
   position: relative;
+  opacity: 0.8;
+  transition: all 1s linear;
+}
+
+.banner:hover {
+  opacity: 1;
 }
 
 .banner__content {
